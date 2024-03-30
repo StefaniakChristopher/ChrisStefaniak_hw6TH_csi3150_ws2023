@@ -1,0 +1,20 @@
+.hero {
+  height: 700px;
+  background-image: url("../../assets/HeroSection-bg-image.jpg");
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  margin-top: 60px;
+}
+
+header h2 {
+  margin-top: 80px;
+}
