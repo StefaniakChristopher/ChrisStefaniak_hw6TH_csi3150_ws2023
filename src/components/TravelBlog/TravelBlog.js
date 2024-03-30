@@ -1,10 +1,13 @@
 import React from "react";
-import TravelData from "../../TravelData";
 import "./TravelBlog.css";
 
-function TravelBlog() {
-  const { placeHeading, placeImg1, placeImg2, placeImg3, placeDescription } =
-    TravelData[0];
+function TravelBlog({
+  placeHeading,
+  placeImg1,
+  placeImg2,
+  placeImg3,
+  placeDescription,
+}) {
   return (
     <div>
       <section>

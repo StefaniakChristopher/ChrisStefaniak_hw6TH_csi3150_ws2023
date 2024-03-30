@@ -2,6 +2,7 @@
   height: 700px;
   background-image: url("../../assets/HeroSection-bg-image.jpg");
   background-size: cover;
+  margin: 60px;
 }
 
 header {
@@ -13,8 +14,12 @@ header {
 
 header h1 {
   margin-top: 60px;
+  color: var(--font-color-primary);
+  font-size: 96px;
 }
 
 header h2 {
   margin-top: 80px;
+  color: var(--font-color-secondary);
+  font-size: 40px;
 }
